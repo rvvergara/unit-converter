@@ -1,0 +1,29 @@
+/*
+STYLES FOR THE CONVERTER APP
+*/
+
+body	{
+	font-family: 'Montserrat';
+	color: rgb(255,255,255);
+	background-color: rgb(45,130,125);
+	text-shadow: 2px 2px #ff2f;
+}
+
+h1	{
+	text-align: center;
+}
+
+.container	{
+	max-width: 700px;
+	margin-top: 40px;
+}
+
+.result	{
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: rgb(255,255,255);
+	color: rgb(45,130,125);
+	padding: 10px;
+	margin: 20px;
+}

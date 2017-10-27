@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content=content = "IE = edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<title>Unit Converter</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet"> 	
+	<link href = "css/styles.css" rel = "stylesheet">
+</head>
+<body>
+	
+	<h2>Temperature Converter</h2>
+	<div class="container">
+		<form name="form1" id="form1">
+			<label for="temp1">Temperature to convert</label>
+			<input type="number" name="temp1" id="temp1">
+			<label for="unit1">from:</label>
+			<select name="unit1" id="unit1">
+				<option  value="c">&deg;C</option>
+				<option  value="f">&deg;F</option>
+			</select>
+			<label for="unit2" id="unit2">to:</label>
+			<select name="unit2" id="unit2">
+				<option value="c">&deg;C</option>
+				<option value="f">&deg;F</option>
+			</select>
+			<p>
+				<output for="temp1 temp2" name="result"></output>		
+			</p>
+		</form>
+	</div>
+	
+	
+	 
+	<script src = "js/script.js"></script>
+</body>
+</html>
